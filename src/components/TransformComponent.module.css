@@ -1,7 +1,7 @@
 .container {
   position: relative;
   width: fit-content;
-  height: fit-content;
+  height: auto;
   overflow: hidden;
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
