@@ -244,12 +244,12 @@ class StateProvider extends Component<StateContextProps, StateContextState> {
   //////////
 
   checkPanningTarget = event => {
-    console.log(disableOnTarget);
     console.log(event.target.tagName);
     console.log(event.target.classList);
     const {
       pan: { disableOnTarget },
     } = this.stateProvider;
+    console.log(disableOnTarget);
     return (
       disableOnTarget
         .map(tag => tag.toUpperCase())
